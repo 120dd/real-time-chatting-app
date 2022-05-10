@@ -1,0 +1,28 @@
+$basecolor: #3f3f44;
+$mainColor: #664986;
+$mainColorDark: #534292;
+$fs-normal: 1rem;
+@mixin title(){
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 24px;
+  color: $mainColor;
+}
+
+@mixin smallText(){
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+@mixin columeCenter(){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
